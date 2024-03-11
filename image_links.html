@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image links</title>
+    <style>
+        body{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+        }
+        header{
+            background: purple;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+        nav{
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        img{
+            display: grid;
+
+        }
+        footer{
+            background: purple;
+            color: black;  
+            text-align: center; 
+        }
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> welcome to image links</h1>
+    </header>
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#Gallery">Gallery</a>
+        <a href="#Menu">Menu</a>
+    </nav>
+    <section id="Home">
+        <h1>Home</h1>
+        <p>welcome to our beloved website here are pictures related to technology</p>
+        <a href="image_links.html" target="_blank">
+            <img src="tech.jpg" alt="tech 1 is nice">
+        </a>
+        <a href="image_links.html" target="_blank">
+            <img src="tech.jpg" alt="tech 2 is nice">
+        </a>
+        <a href="image_links.html" target="_blank">
+            <img src="tech.jpg" alt="tech 3 is nice">
+        </a>
+    </section>
+    <section id="Gallery">
+        <h1>Gallery</h1>
+        <div class="gallery">
+        <a href="image_links.html" target="_blank">
+            <img src="nature.jpg" alt="nature 1 is nice" class="img_links">
+        </a>
+        <a href="image_links.html" target="_blank">
+            <img src="nature.jpg" alt="nature 1 is nice" class="img_links">
+        </a>
+        <a href="image_links.html" target="_blank">
+            <img src="nature3.avif" alt="nature 1 is nice" class="img_links">
+        </a>
+    </div>
+    </section>
+<section id="Menu">
+    <h1>Menu</h1>
+    <ul>
+        <li>
+            Food 1
+            <a href="image_links.html" target="_blank">
+                <img src="pizza.jpg" alt="food 1 is nice" class="img_links">
+            </a>   
+        </li>
+        <li>
+            Food 2
+            <a href="image_links.html" target="_blank">
+                <img src="bugger.jpg" alt="nature 1 is nice" class="img_links">
+            </a>
+        </li>
+        <li>
+            Food 3
+            <a href="image_links.html" target="_blank">
+                <img src="sandwitch.jpg" alt="nature 1 is nice" class="img_links">
+            </a>
+        </li>
+    </ul>
+</section>
+<footer>
+    &copy; 2024 Image Links  
+</footer>
+    
+</body>
+</html>
